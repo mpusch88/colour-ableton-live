@@ -1025,11 +1025,11 @@ def main():
 	</SkinManager>
 	"""
 
-	result = convert_xml(xml_string)
+	converted = convert_xml(xml_string)
 
-	# write result to file
-	with open('result.xml', 'w') as file:
-		file.write(result)
+	# write conversion result to file
+	with open('converted.xml', 'w') as file:
+		file.write(converted)
 
 	# Print success message
 	print('Conversion successful!')
