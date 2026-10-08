@@ -1,0 +1,1 @@
+#[test] fn test_ns() { let mut xml = std::fs::read_to_string("Skins/Mid Dark - Blue.ask").unwrap(); xml = xml.replace("<Ableton", "<Ableton xmlns=\"http://a\""); minidom::Element::from_reader(xml.as_bytes()).unwrap(); }

@@ -1,0 +1,12 @@
+[package]
+name = "colour-ableton-live-12"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.9"
+eframe = "0.36.2"
+rfd = "0.17.2"
+tokio = { version = "1.53.2", features = ["full"] }
+xmltree = "0.12.0"
+
